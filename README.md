@@ -1,5 +1,5 @@
 # Clustering capstone - Simona Barbuceanu
-## 📓 [Open the full notebook](notebooks/clustering_capstone.ipynb)
+## 📓 [Open the full notebook](notebooks/clustering_capstone(3).ipynb)
 
 Explore the analysis, visualisations, findings and impact brief.
 
