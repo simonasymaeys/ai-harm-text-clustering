@@ -1,5 +1,5 @@
 # Clustering capstone - Simona Barbuceanu
-## 📓 [Open the full notebook](notebooks/clustering_capstone (3).ipynb
+## 📓## 📓 [Open the full notebook](notebooks/clustering_capstone%20%283%29.ipynb)
 
 Explore the analysis, visualisations, findings and impact brief.
 
@@ -17,7 +17,7 @@ Section 2.4 of the notebook gives the full data-access steps; `data/README.md` r
 
 ## Contents
 
-- `notebooks/clustering_capstone.ipynb`: the single, self-contained analysis notebook.
+- `notebooks/clustering_capstone (3).ipynb`: the complete analysis notebook, including findings, reflection and impact brief.
 - `data/`: data-access instructions, collection manifest, ID-keyed review flags and the export-combining helper.
 - `results/`: aggregate experiment metrics, profiles, exploration aggregates and plotting arrays; no titles or summaries.
 - `requirements.txt`: tested package versions.
