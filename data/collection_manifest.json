@@ -1,0 +1,142 @@
+{
+  "retrieved": "2026-10-23",
+  "requested_start": "2026-07-01",
+  "requested_end": "2026-09-30",
+  "displayed_quarter_count": 1889,
+  "downloaded_rows": 2164,
+  "unique_ids": 1889,
+  "batches": [
+    {
+      "file": "original-exports/batch-01.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-27",
+      "exported_date_max": "2026-09-30"
+    },
+    {
+      "file": "original-exports/batch-02.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-22",
+      "exported_date_max": "2026-09-27"
+    },
+    {
+      "file": "original-exports/batch-03.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-18",
+      "exported_date_max": "2026-09-22"
+    },
+    {
+      "file": "original-exports/batch-04.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-15",
+      "exported_date_max": "2026-09-18"
+    },
+    {
+      "file": "original-exports/batch-05.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-11",
+      "exported_date_max": "2026-09-15"
+    },
+    {
+      "file": "original-exports/batch-06.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-09",
+      "exported_date_max": "2026-09-11"
+    },
+    {
+      "file": "original-exports/batch-07.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-06",
+      "exported_date_max": "2026-09-09"
+    },
+    {
+      "file": "original-exports/batch-08.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-09-01",
+      "exported_date_max": "2026-09-06"
+    },
+    {
+      "file": "original-exports/batch-09.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-26",
+      "exported_date_max": "2026-09-01"
+    },
+    {
+      "file": "original-exports/batch-10.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-21",
+      "exported_date_max": "2026-08-26"
+    },
+    {
+      "file": "original-exports/batch-11.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-17",
+      "exported_date_max": "2026-08-21"
+    },
+    {
+      "file": "original-exports/batch-12.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-12",
+      "exported_date_max": "2026-08-17"
+    },
+    {
+      "file": "original-exports/batch-13.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-08",
+      "exported_date_max": "2026-08-12"
+    },
+    {
+      "file": "original-exports/batch-14.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-08-04",
+      "exported_date_max": "2026-08-08"
+    },
+    {
+      "file": "original-exports/batch-15.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-31",
+      "exported_date_max": "2026-08-04"
+    },
+    {
+      "file": "original-exports/batch-16.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-28",
+      "exported_date_max": "2026-07-31"
+    },
+    {
+      "file": "original-exports/batch-17.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-23",
+      "exported_date_max": "2026-07-28"
+    },
+    {
+      "file": "original-exports/batch-18.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-19",
+      "exported_date_max": "2026-07-23"
+    },
+    {
+      "file": "original-exports/batch-19.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-14",
+      "exported_date_max": "2026-07-19"
+    },
+    {
+      "file": "original-exports/batch-20.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-09",
+      "exported_date_max": "2026-07-14"
+    },
+    {
+      "file": "original-exports/batch-21.xlsx",
+      "rows": 100,
+      "exported_date_min": "2026-07-05",
+      "exported_date_max": "2026-07-09"
+    },
+    {
+      "file": "original-exports/batch-22.xlsx",
+      "rows": 64,
+      "exported_date_min": "2026-07-01",
+      "exported_date_max": "2026-07-05"
+    }
+  ]
+}

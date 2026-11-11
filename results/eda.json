@@ -1,0 +1,131 @@
+{
+  "source": "recomputed from source CSV",
+  "snapshot_mode": "exact",
+  "n": 1889,
+  "variables": {
+    "id": {
+      "type": "string key",
+      "distinct": 1889,
+      "empty": 0
+    },
+    "title": {
+      "type": "free text",
+      "distinct": 1889,
+      "empty": 0
+    },
+    "date": {
+      "type": "date",
+      "distinct": 92,
+      "empty": 0
+    },
+    "summary": {
+      "type": "free text",
+      "distinct": 1889,
+      "empty": 0
+    },
+    "concepts": {
+      "type": "multi-value text tags",
+      "distinct": 1889,
+      "empty": 0
+    },
+    "companies": {
+      "type": "empty text",
+      "distinct": 0,
+      "empty": 1889
+    },
+    "country": {
+      "type": "short text / categorical",
+      "distinct": 81,
+      "empty": 59
+    }
+  },
+  "monthly": {
+    "2026-07": 581,
+    "2026-08": 599,
+    "2026-09": 709
+  },
+  "distinct_days": 92,
+  "daily_min": 5,
+  "daily_median": 21.0,
+  "daily_max": 38,
+  "missing": {
+    "id": 0,
+    "title": 0,
+    "date": 0,
+    "summary": 0,
+    "concepts": 0,
+    "companies": 1889,
+    "country": 59
+  },
+  "summary_words": {
+    "count": 1889.0,
+    "mean": 47.54314452091054,
+    "std": 2.8808188831058823,
+    "min": 37.0,
+    "25%": 46.0,
+    "50%": 47.0,
+    "75%": 49.0,
+    "max": 63.0
+  },
+  "summary_word_hist": {
+    "37": 1,
+    "38": 2,
+    "39": 1,
+    "40": 4,
+    "41": 21,
+    "42": 32,
+    "43": 69,
+    "44": 131,
+    "45": 183,
+    "46": 240,
+    "47": 286,
+    "48": 241,
+    "49": 229,
+    "50": 185,
+    "51": 106,
+    "52": 75,
+    "53": 35,
+    "54": 19,
+    "55": 16,
+    "56": 9,
+    "57": 3,
+    "63": 1
+  },
+  "length_outliers": {
+    "low_fence": 41.5,
+    "high_fence": 53.5,
+    "below": 29,
+    "above": 48
+  },
+  "repeated_titles": 0,
+  "repeated_summaries": 0,
+  "top_countries": {
+    "United States": 725,
+    "China": 127,
+    "United Kingdom": 97,
+    "India": 79,
+    "Brazil": 76,
+    "Germany": 59,
+    "Chinese Taipei": 57,
+    "Korea": 47,
+    "Ukraine": 36,
+    "Australia": 36
+  },
+  "top_terms_doc_freq": {
+    "risks": 580,
+    "harm": 576,
+    "concerns": 505,
+    "systems": 425,
+    "including": 394,
+    "used": 385,
+    "potential": 323,
+    "data": 316,
+    "significant": 314,
+    "autonomous": 300,
+    "public": 263,
+    "raising": 260,
+    "led": 255,
+    "privacy": 252,
+    "security": 252
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "source": "recomputed from source CSV",
+  "snapshot_mode": "exact",
+  "reproduces_selected_ari": 1.0,
+  "wider_grid": [
+    {
+      "model": "K-means|TF-IDF|k=14",
+      "algorithm": "K-means",
+      "representation": "TF-IDF",
+      "k": 14,
+      "clusters": 14,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 28,
+      "largest_cluster_share": 0.23468834688346885,
+      "silhouette_original": 0.02492251395189796,
+      "silhouette_fitted": 0.02492251395189796
+    },
+    {
+      "model": "K-means|TF-IDF|k=16",
+      "algorithm": "K-means",
+      "representation": "TF-IDF",
+      "k": 16,
+      "clusters": 16,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 49,
+      "largest_cluster_share": 0.17506775067750677,
+      "silhouette_original": 0.027959815986966396,
+      "silhouette_fitted": 0.027959815986966396
+    },
+    {
+      "model": "K-means|TF-IDF|k=18",
+      "algorithm": "K-means",
+      "representation": "TF-IDF",
+      "k": 18,
+      "clusters": 18,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 28,
+      "largest_cluster_share": 0.12628726287262873,
+      "silhouette_original": 0.026865556380567583,
+      "silhouette_fitted": 0.026865556380567583
+    },
+    {
+      "model": "K-means|TF-IDF|k=20",
+      "algorithm": "K-means",
+      "representation": "TF-IDF",
+      "k": 20,
+      "clusters": 20,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 23,
+      "largest_cluster_share": 0.14146341463414633,
+      "silhouette_original": 0.02921690062271938,
+      "silhouette_fitted": 0.02921690062271938
+    },
+    {
+      "model": "K-means|LSA-100|k=14",
+      "algorithm": "K-means",
+      "representation": "LSA-100",
+      "k": 14,
+      "clusters": 14,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 49,
+      "largest_cluster_share": 0.1766937669376694,
+      "silhouette_original": 0.02792399555058244,
+      "silhouette_fitted": 0.1253029307649906
+    },
+    {
+      "model": "K-means|LSA-100|k=16",
+      "algorithm": "K-means",
+      "representation": "LSA-100",
+      "k": 16,
+      "clusters": 16,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 49,
+      "largest_cluster_share": 0.14850948509485096,
+      "silhouette_original": 0.02943837263995503,
+      "silhouette_fitted": 0.13422702748989715
+    },
+    {
+      "model": "K-means|LSA-100|k=18",
+      "algorithm": "K-means",
+      "representation": "LSA-100",
+      "k": 18,
+      "clusters": 18,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 42,
+      "largest_cluster_share": 0.14634146341463414,
+      "silhouette_original": 0.03140636374848116,
+      "silhouette_fitted": 0.14416869987708986
+    },
+    {
+      "model": "K-means|LSA-100|k=20",
+      "algorithm": "K-means",
+      "representation": "LSA-100",
+      "k": 20,
+      "clusters": 20,
+      "coverage": 1.0,
+      "noise_n": 0,
+      "smallest_cluster": 28,
+      "largest_cluster_share": 0.0953929539295393,
+      "silhouette_original": 0.03315633350499671,
+      "silhouette_fitted": 0.1506368069050597
+    }
+  ],
+  "fixed_seed_subsets": [
+    {
+      "subset_seed": 0,
+      "ari": 0.5281093759047375,
+      "n": 1476
+    },
+    {
+      "subset_seed": 1,
+      "ari": 0.5152886897285734,
+      "n": 1476
+    },
+    {
+      "subset_seed": 7,
+      "ari": 0.6023017497999216,
+      "n": 1476
+    },
+    {
+      "subset_seed": 21,
+      "ari": 0.667517764511252,
+      "n": 1476
+    }
+  ]
+}

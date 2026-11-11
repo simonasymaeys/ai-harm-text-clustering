@@ -1,0 +1,549 @@
+{
+  "raw_n": 1889,
+  "analysis_n": 1845,
+  "monthly": {
+    "2026-07": 581,
+    "2026-08": 599,
+    "2026-09": 709
+  },
+  "missing_country": 59,
+  "review_status": {
+    "provisional_keep_not_fully_adjudicated": 1845,
+    "needs_scope_or_source_review": 38,
+    "exclude_pilot": 6
+  },
+  "reviewed_n": 181,
+  "duplicate_ids": 0,
+  "duplicate_summaries": 0,
+  "feature_n": 6110,
+  "lsa_dimensions": 100,
+  "lsa_explained_variance": 0.2426838031646388,
+  "selected_model": "K-means|LSA-100|k=12",
+  "selected_metrics": {
+    "algorithm": "K-means",
+    "representation": "LSA-100",
+    "k": 12.0,
+    "eps": null,
+    "min_samples": null,
+    "clusters": 12,
+    "coverage": 1.0,
+    "noise_n": 0,
+    "smallest_cluster": 45,
+    "largest_cluster_share": 0.2005420054200542,
+    "silhouette_original": 0.026951428261030187,
+    "silhouette_fitted": 0.11986385921649242,
+    "review_queue_eligible": true
+  },
+  "negative_silhouette_share": 0.21138211382113822,
+  "seed_stability": [
+    {
+      "seed": 0,
+      "ari": 0.6140659105189562
+    },
+    {
+      "seed": 1,
+      "ari": 0.6017548319114
+    },
+    {
+      "seed": 7,
+      "ari": 0.5733093911151085
+    },
+    {
+      "seed": 21,
+      "ari": 0.6713355396601213
+    }
+  ],
+  "subset_stability": [
+    {
+      "seed": 0,
+      "ari": 0.5435797968490583,
+      "n": 1476
+    },
+    {
+      "seed": 1,
+      "ari": 0.6357982217911098,
+      "n": 1476
+    },
+    {
+      "seed": 7,
+      "ari": 0.5140736592857179,
+      "n": 1476
+    },
+    {
+      "seed": 21,
+      "ari": 0.6546013610745701,
+      "n": 1476
+    }
+  ],
+  "sensitivity": [
+    {
+      "test": "Mask 10 company/product names",
+      "n": 1845,
+      "ari": 0.6467485345041138
+    },
+    {
+      "test": "Summary only",
+      "n": 1845,
+      "ari": 0.5549040041920791
+    },
+    {
+      "test": "Thin four probable event families",
+      "n": 1841,
+      "ari": 0.6197831734488534
+    },
+    {
+      "test": "Include all 1,889 reports",
+      "n": 1889,
+      "ari": 0.596808219378936
+    },
+    {
+      "test": "Retain generic AI boilerplate",
+      "n": 1845,
+      "ari": 0.5075914532037213
+    }
+  ],
+  "profiles": [
+    {
+      "cluster": 0,
+      "n": 272,
+      "terms": [
+        "security",
+        "openai",
+        "agents",
+        "cybersecurity",
+        "models",
+        "cyberattacks",
+        "data",
+        "anthropic",
+        "unauthorized",
+        "vulnerabilities",
+        "incidents",
+        "breaches"
+      ],
+      "representative_ids": [
+        "2026-07-28-c897",
+        "2026-09-27-e1d2",
+        "2026-08-06-fddc"
+      ]
+    },
+    {
+      "cluster": 1,
+      "n": 45,
+      "terms": [
+        "data",
+        "environmental",
+        "data centers",
+        "data center",
+        "centers",
+        "center",
+        "expansion",
+        "water",
+        "energy",
+        "infrastructure",
+        "data centre",
+        "concerns"
+      ],
+      "representative_ids": [
+        "2026-07-04-2512",
+        "2026-09-10-8d48",
+        "2026-08-23-dc0b"
+      ]
+    },
+    {
+      "cluster": 2,
+      "n": 154,
+      "terms": [
+        "meta",
+        "content",
+        "tiktok",
+        "lawsuit",
+        "alleging",
+        "children",
+        "algorithms",
+        "copyright",
+        "harm",
+        "music",
+        "platforms",
+        "minors"
+      ],
+      "representative_ids": [
+        "2026-08-17-87cc",
+        "2026-08-09-6290",
+        "2026-08-18-e7ea"
+      ]
+    },
+    {
+      "cluster": 3,
+      "n": 370,
+      "terms": [
+        "chatgpt",
+        "google",
+        "concerns",
+        "led",
+        "harm",
+        "used",
+        "risks",
+        "china",
+        "legal",
+        "chatbots",
+        "job",
+        "advice"
+      ],
+      "representative_ids": [
+        "2026-08-24-5364",
+        "2026-07-01-f795",
+        "2026-09-23-c5d1"
+      ]
+    },
+    {
+      "cluster": 4,
+      "n": 122,
+      "terms": [
+        "privacy",
+        "facial",
+        "facial recognition",
+        "data",
+        "recognition",
+        "concerns",
+        "violations",
+        "glasses",
+        "surveillance",
+        "smart",
+        "rights",
+        "smart glasses"
+      ],
+      "representative_ids": [
+        "2026-08-18-427f",
+        "2026-08-15-561f",
+        "2026-08-03-b892"
+      ]
+    },
+    {
+      "cluster": 5,
+      "n": 129,
+      "terms": [
+        "fraud",
+        "financial",
+        "scams",
+        "used",
+        "losses",
+        "scam",
+        "voice",
+        "fake",
+        "financial losses",
+        "victims",
+        "impersonate",
+        "deepfake"
+      ],
+      "representative_ids": [
+        "2026-07-12-9fe7",
+        "2026-09-15-a015",
+        "2026-08-18-2b11"
+      ]
+    },
+    {
+      "cluster": 6,
+      "n": 235,
+      "terms": [
+        "misinformation",
+        "deepfake",
+        "video",
+        "videos",
+        "public",
+        "content",
+        "political",
+        "fake",
+        "media",
+        "social",
+        "falsely",
+        "reputational"
+      ],
+      "representative_ids": [
+        "2026-07-22-813e",
+        "2026-09-29-3ae5",
+        "2026-07-25-3111"
+      ]
+    },
+    {
+      "cluster": 7,
+      "n": 49,
+      "terms": [
+        "license",
+        "plate",
+        "license plate",
+        "flock",
+        "surveillance",
+        "privacy",
+        "readers",
+        "plate readers",
+        "plate reader",
+        "reader",
+        "police",
+        "flock safety"
+      ],
+      "representative_ids": [
+        "2026-08-13-5a75",
+        "2026-08-16-dfb7",
+        "2026-07-31-4d5d"
+      ]
+    },
+    {
+      "cluster": 8,
+      "n": 110,
+      "terms": [
+        "images",
+        "deepfake",
+        "sexual",
+        "child",
+        "used",
+        "abuse",
+        "explicit",
+        "create",
+        "nude",
+        "non consensual",
+        "consensual",
+        "non"
+      ],
+      "representative_ids": [
+        "2026-08-28-961c",
+        "2026-09-09-902e",
+        "2026-07-07-ab46"
+      ]
+    },
+    {
+      "cluster": 9,
+      "n": 158,
+      "terms": [
+        "military",
+        "autonomous",
+        "drones",
+        "defense",
+        "ukraine",
+        "drone",
+        "future",
+        "systems",
+        "combat",
+        "risks",
+        "future risks",
+        "warfare"
+      ],
+      "representative_ids": [
+        "2026-08-24-6f32",
+        "2026-09-29-c02d",
+        "2026-07-13-73a5"
+      ]
+    },
+    {
+      "cluster": 10,
+      "n": 77,
+      "terms": [
+        "tesla",
+        "safety",
+        "vehicles",
+        "autonomous",
+        "driving",
+        "self driving",
+        "waymo",
+        "safety concerns",
+        "robotaxi",
+        "autonomous vehicles",
+        "autopilot",
+        "self"
+      ],
+      "representative_ids": [
+        "2026-07-09-407b",
+        "2026-08-05-0f04",
+        "2026-09-01-dee9"
+      ]
+    },
+    {
+      "cluster": 11,
+      "n": 124,
+      "terms": [
+        "risks",
+        "warns",
+        "warned",
+        "global",
+        "warn",
+        "regulation",
+        "existential",
+        "anthropic",
+        "potential",
+        "financial",
+        "development",
+        "existential risks"
+      ],
+      "representative_ids": [
+        "2026-09-09-663e",
+        "2026-09-09-518c",
+        "2026-09-21-d86b"
+      ]
+    }
+  ],
+  "mentions": {
+    "OpenAI": 170,
+    "Anthropic": 143,
+    "Meta": 124,
+    "Google": 91,
+    "Claude": 82,
+    "ChatGPT": 80,
+    "Tesla": 32,
+    "DeepSeek": 14,
+    "Grok": 30,
+    "Gemini": 30
+  },
+  "concentration": {
+    "0": {
+      "OpenAI": 0.41544117647058826,
+      "Anthropic": 0.2536764705882353,
+      "Meta": 0.07720588235294118,
+      "Google": 0.058823529411764705,
+      "Claude": 0.13970588235294118,
+      "ChatGPT": 0.04779411764705882,
+      "Tesla": 0.0,
+      "DeepSeek": 0.022058823529411766,
+      "Grok": 0.011029411764705883,
+      "Gemini": 0.03308823529411765
+    },
+    "1": {
+      "OpenAI": 0.06666666666666667,
+      "Anthropic": 0.0,
+      "Meta": 0.022222222222222223,
+      "Google": 0.06666666666666667,
+      "Claude": 0.0,
+      "ChatGPT": 0.0,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.0,
+      "Gemini": 0.0
+    },
+    "2": {
+      "OpenAI": 0.06493506493506493,
+      "Anthropic": 0.05194805194805195,
+      "Meta": 0.3181818181818182,
+      "Google": 0.06493506493506493,
+      "Claude": 0.03896103896103896,
+      "ChatGPT": 0.045454545454545456,
+      "Tesla": 0.0,
+      "DeepSeek": 0.006493506493506494,
+      "Grok": 0.0,
+      "Gemini": 0.006493506493506494
+    },
+    "3": {
+      "OpenAI": 0.05405405405405406,
+      "Anthropic": 0.05945945945945946,
+      "Meta": 0.01891891891891892,
+      "Google": 0.10270270270270271,
+      "Claude": 0.062162162162162166,
+      "ChatGPT": 0.13513513513513514,
+      "Tesla": 0.002702702702702703,
+      "DeepSeek": 0.013513513513513514,
+      "Grok": 0.03513513513513514,
+      "Gemini": 0.051351351351351354
+    },
+    "4": {
+      "OpenAI": 0.02459016393442623,
+      "Anthropic": 0.02459016393442623,
+      "Meta": 0.22950819672131148,
+      "Google": 0.04918032786885246,
+      "Claude": 0.02459016393442623,
+      "ChatGPT": 0.02459016393442623,
+      "Tesla": 0.0,
+      "DeepSeek": 0.00819672131147541,
+      "Grok": 0.00819672131147541,
+      "Gemini": 0.0
+    },
+    "5": {
+      "OpenAI": 0.007751937984496124,
+      "Anthropic": 0.015503875968992248,
+      "Meta": 0.023255813953488372,
+      "Google": 0.007751937984496124,
+      "Claude": 0.015503875968992248,
+      "ChatGPT": 0.031007751937984496,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.0,
+      "Gemini": 0.0
+    },
+    "6": {
+      "OpenAI": 0.00851063829787234,
+      "Anthropic": 0.01702127659574468,
+      "Meta": 0.03404255319148936,
+      "Google": 0.02127659574468085,
+      "Claude": 0.01702127659574468,
+      "ChatGPT": 0.00851063829787234,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.00425531914893617,
+      "Gemini": 0.0
+    },
+    "7": {
+      "OpenAI": 0.0,
+      "Anthropic": 0.0,
+      "Meta": 0.0,
+      "Google": 0.02040816326530612,
+      "Claude": 0.0,
+      "ChatGPT": 0.0,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.0,
+      "Gemini": 0.0
+    },
+    "8": {
+      "OpenAI": 0.0,
+      "Anthropic": 0.0,
+      "Meta": 0.03636363636363636,
+      "Google": 0.01818181818181818,
+      "Claude": 0.0,
+      "ChatGPT": 0.00909090909090909,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.10909090909090909,
+      "Gemini": 0.0
+    },
+    "9": {
+      "OpenAI": 0.0,
+      "Anthropic": 0.0189873417721519,
+      "Meta": 0.0,
+      "Google": 0.0,
+      "Claude": 0.012658227848101266,
+      "ChatGPT": 0.0,
+      "Tesla": 0.0,
+      "DeepSeek": 0.0,
+      "Grok": 0.0,
+      "Gemini": 0.0
+    },
+    "10": {
+      "OpenAI": 0.0,
+      "Anthropic": 0.0,
+      "Meta": 0.0,
+      "Google": 0.025974025974025976,
+      "Claude": 0.0,
+      "ChatGPT": 0.0,
+      "Tesla": 0.4025974025974026,
+      "DeepSeek": 0.0,
+      "Grok": 0.0,
+      "Gemini": 0.012987012987012988
+    },
+    "11": {
+      "OpenAI": 0.14516129032258066,
+      "Anthropic": 0.25806451612903225,
+      "Meta": 0.024193548387096774,
+      "Google": 0.056451612903225805,
+      "Claude": 0.03225806451612903,
+      "ChatGPT": 0.0,
+      "Tesla": 0.0,
+      "DeepSeek": 0.008064516129032258,
+      "Grok": 0.0,
+      "Gemini": 0.0
+    }
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.12.14"
+}
