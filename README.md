@@ -3,7 +3,7 @@
 
 Explore the analysis, visualisations, findings and impact brief.
 
-Open `notebooks/clustering_capstone.ipynb`. It contains the complete study, results, reflection and non-technical impact brief. It is an exploratory study with provisional relevance screening, not a verified taxonomy of AI harms.
+Open `notebooks/clustering_capstone(3).ipynb`. It contains the complete study, results, reflection and non-technical impact brief. It is an exploratory study with provisional relevance screening, not a verified taxonomy of AI harms.
 
 ## Run
 
