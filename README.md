@@ -1,4 +1,7 @@
 # Clustering capstone - Simona Barbuceanu
+## 📄 [Read the research report (PDF)](AI_Harm_Clustering_Report_Simona_Barbuceanu.pdf)
+
+An illustrated overview of the findings, methods and implications for AI governance.
 ## 📓## 📓 [Open the full notebook](notebooks/clustering_capstone%20%283%29.ipynb)
 
 Explore the analysis, visualisations, findings and impact brief.
